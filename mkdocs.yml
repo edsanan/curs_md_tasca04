@@ -1,0 +1,7 @@
+site_name: Tasca 4 Curs Markdown - Material for MkdDocs
+theme: 'material'
+docs_dir: 'md'
+site_dir: 'docs'
+nav:
+  - Home: index.md
+  - VirtualBox: virtualbox.md
