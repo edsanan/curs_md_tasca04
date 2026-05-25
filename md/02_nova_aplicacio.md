@@ -51,4 +51,4 @@ Reinicieu el servidor d'Odoo i vés a Aplicacions (*Apps*). Feu clic a **Actuali
 
 Fins i tot podeu instal·lar el mòdul! Però, òbviament, és una carcassa buida, així que no apareixerà cap menú.
 
-Tot bé? Si és així, doncs anem a [crear el nostre primer model](../03_modelbasic/)!
+Tot bé? Si és així, doncs anem a [crear el nostre primer model](../03_modelboooooosic/)!
