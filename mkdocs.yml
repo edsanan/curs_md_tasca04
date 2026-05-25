@@ -2,7 +2,7 @@ site_name: Tasca 4 Curs Markdown - Material for MkdDocs
 docs_dir: 'md'
 site_dir: 'docs'
 nav:
-  - 1. Arquitectura: 01_arquitectura.md
+  - 1. Arquitectura: index.md
   - 2. Una nova aplicació: 02_nova_aplicacio.md
   - 3. Estructura d'un model bàsic: 03_modelbasic.md
   - 4. Introducció a la seguretat: 04_introseguretat.md
