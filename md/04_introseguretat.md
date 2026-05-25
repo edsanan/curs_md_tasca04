@@ -1,6 +1,6 @@
 # Capítol 4: Seguretat - Una breu introducció
 
-En el [capítol anterior](03_basicmodel), vam crear la nostra primera taula destinada a emmagatzemar dades de negoci. En una aplicació de negoci com Odoo, una de les primeres qüestions a tindre en compte és qui pot accedir a les dades. Odoo proporciona un mecanisme de seguretat per a permetre l'accés a les dades a grups específics d'usuaris.
+En el [capítol anterior](../03_modelbasic/), vam crear la nostra primera taula destinada a emmagatzemar dades de negoci. En una aplicació de negoci com Odoo, una de les primeres qüestions a tindre en compte és qui pot accedir a les dades. Odoo proporciona un mecanisme de seguretat per a permetre l'accés a les dades a grups específics d'usuaris.
 
 Aquest capítol té com a objectiu cobrir el mínim necessari per al nostre nou mòdul.
 

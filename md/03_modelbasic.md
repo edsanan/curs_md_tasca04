@@ -1,6 +1,6 @@
 # Capítol 3: Models i camps bàsics
 
-Al final del [capítol anterior](02_nnova_aplicacio), vam ser capaços de crear un mòdul d'Odoo. No obstant això, de moment encara és una carcassa buida que no ens permet emmagatzemar cap dada. En el nostre mòdul immobiliari, volem emmagatzemar la informació relacionada amb les propietats (nom, descripció, preu, superfície habitable...) en una base de dades. El *framework* d'Odoo proporciona eines per a facilitar les interaccions amb la base de dades.
+Al final del [capítol anterior](../02_nova_aplicacio/), vam ser capaços de crear un mòdul d'Odoo. No obstant això, de moment encara és una carcassa buida que no ens permet emmagatzemar cap dada. En el nostre mòdul immobiliari, volem emmagatzemar la informació relacionada amb les propietats (nom, descripció, preu, superfície habitable...) en una base de dades. El *framework* d'Odoo proporciona eines per a facilitar les interaccions amb la base de dades.
 
 Abans d'avançar en l'exercici, assegureu-vos que el mòdul `estate` està instal·lat, és a dir, ha d'aparéixer com a 'Instal·lat' a la llista d'Aplicacions.
 
@@ -210,4 +210,4 @@ Alguns atributs estan disponibles en tots els camps, ací teniu els més comuns:
 *   `write_date` (`Datetime`): Data de l'última modificació del registre.
 *   `write_uid` (`Many2one`): Usuari que va modificar per última vegada el registre.
 
-Ara que hem creat el nostre primer model, anem a [afegir un poc de seguretat](04_introseguretat)!
+Ara que hem creat el nostre primer model, anem a [afegir un poc de seguretat](../04_introseguretat/)!
