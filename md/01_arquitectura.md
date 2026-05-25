@@ -14,8 +14,8 @@ Per a seguir aquest tutorial, necessitarem coneixements molt bàsics d'HTML i un
 
 Com a referència, aquest és el [tutorial oficial de Python](https://docs.python.org/3.7/tutorial/).
 
-> **Nota:**
-> Des de la versió 15.0, Odoo està fent una transició activa cap a l'ús del seu propi [framework OWL](https://odoo.github.io/owl/), desenvolupat internament, com a part de la seua capa de presentació. El framework JavaScript heretat encara és compatible, però quedarà obsolet amb el temps. Això es tractarà amb més detall en els temes avançats.
+???+ info "Sobre els frameworks de client"
+    Des de la versió 15.0, Odoo està fent una transició activa cap a l'ús del seu propi [framework OWL](https://odoo.github.io/owl/), desenvolupat internament, com a part de la seua capa de presentació. El framework JavaScript heretat encara és compatible, però quedarà obsolet amb el temps. Això es tractarà amb més detall en els temes avançats.
 
 ## Mòduls d'Odoo
 
@@ -53,7 +53,7 @@ Quan un mòdul d'Odoo inclou objectes de negoci (és a dir, fitxers de Python), 
 
 Ací tens un directori de mòdul simplificat:
 
-```bash
+```bash title="Estructura d'un mòdul simplificat"
 module
 ├── models
 │   ├── *.py
@@ -64,8 +64,7 @@ module
 └── __manifest__.py
 ```
 
-## Edicions d'Odoo
-
-Odoo està disponible en [dues versions](https://www.odoo.com/page/editions): **Odoo Enterprise** (amb llicència i codi font compartit) i **Odoo Community** (codi obert). A més de serveis com el suport o les actualitzacions, la versió Enterprise proporciona funcionalitats extra a Odoo. Des d'un punt de vista tècnic, aquestes funcionalitats són simplement nous mòduls instal·lats per damunt dels mòduls proporcionats per la versió Community.
+!!! note "Edicions d'Odoo"
+    Odoo està disponible en [dues versions](https://www.odoo.com/page/editions): **Odoo Enterprise** (amb llicència i codi font compartit) i **Odoo Community** (codi obert). A més de serveis com el suport o les actualitzacions, la versió Enterprise proporciona funcionalitats extra a Odoo. Des d'un punt de vista tècnic, aquestes funcionalitats són simplement nous mòduls instal·lats per damunt dels mòduls proporcionats per la versió Community.
 
 Comencem? És hora d'escriure la nostra pròpia aplicació!

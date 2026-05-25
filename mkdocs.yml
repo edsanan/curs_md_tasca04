@@ -1,7 +1,37 @@
 site_name: Tasca 4 Curs Markdown - Material for MkdDocs
-theme: 'material'
 docs_dir: 'md'
 site_dir: 'docs'
 nav:
-  - Home: index.md
-  - VirtualBox: virtualbox.md
+  - 1. Arquitectura: 01_arquitectura.md
+  - 2. Una nova aplicació: 02_nova_aplicacio.md
+  - 3. Estructura d'un model bàsic: 03_modelbasic.md
+  - 4. Introducció a la seguretat: 04_introseguretat.md
+theme:
+  name: material
+  features:
+    - navigation.sections
+    - navigation.top
+    - content.code.copy
+  palette:
+      - scheme: default
+        toggle:
+          icon: material/brightness-7 
+          name: Canvia a mode oscur
+
+      - scheme: slate
+        toggle:
+          icon: material/brightness-4
+          name: Canvia a mode clar
+plugins:
+  - search
+  - page-to-pdf
+markdown_extensions:
+  - pymdownx.highlight:
+      linenums: true
+  - pymdownx.superfences
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - admonition
